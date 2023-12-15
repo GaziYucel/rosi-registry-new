@@ -1,0 +1,24 @@
+{
+  "name": "rosi-registry",
+  "version": "2.0.0",
+  "description": "display and manage metadata of open scientometric data sources",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIBHannover/rosi-registry.git"
+  },
+  "keywords": [
+    "rosi",
+    "registry"
+  ],
+  "author": "lilients",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TIBHannover/rosi-registry/issues"
+  },
+  "homepage": "https://github.com/TIBHannover/rosi-registry#readme",
+  "dependencies": {}
+}

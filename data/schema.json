@@ -1,0 +1,102 @@
+{
+  "id": {
+    "name": "id",
+    "type": "string",
+    "title": "Id",
+    "enum": []
+  },
+  "name": {
+    "name": "name",
+    "type": "string",
+    "title": "Name",
+    "enum": []
+  },
+  "link": {
+    "name": "link",
+    "type": "string",
+    "title": "Link",
+    "enum": []
+  },
+  "image_url": {
+    "name": "image_url",
+    "type": "string",
+    "title": "Link to Logo",
+    "enum": []
+  },
+  "description": {
+    "name": "description",
+    "type": "string",
+    "title": "Description",
+    "enum": []
+  },
+  "category": {
+    "name": "category",
+    "type": "string",
+    "title": "Category",
+    "enum": [
+      "Repository",
+      "Data aggregator",
+      "Collaborative platform",
+      "Online social network",
+      "Other"
+    ]
+  },
+  "entity": {
+    "name": "entity",
+    "type": "string",
+    "title": "Entity",
+    "enum": [
+      "Person",
+      "Project",
+      "Work",
+      "Organisation",
+      "Event",
+      "Other"
+    ]
+  },
+  "licence": {
+    "name": "licence",
+    "type": "string",
+    "title": "Licence",
+    "enum": []
+  },
+  "interface": {
+    "name": "interface",
+    "type": "string",
+    "title": "Interface",
+    "enum": []
+  },
+  "interface_type": {
+    "name": "interface_type",
+    "type": "string",
+    "title": "Type of Interface",
+    "enum": [
+      "REST API",
+      "API",
+      "SPARQL Endpoint",
+      "Other"
+    ]
+  },
+  "documentation": {
+    "name": "documentation",
+    "type": "string",
+    "title": "Documentation",
+    "enum": []
+  },
+  "data_format": {
+    "name": "data_format",
+    "type": "string",
+    "title": "Data format",
+    "enum": [
+      "JSON",
+      "XML",
+      "Other"
+    ]
+  },
+  "comment": {
+    "name": "comment",
+    "type": "string",
+    "title": "Comment",
+    "enum": []
+  }
+}

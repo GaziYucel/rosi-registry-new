@@ -1,0 +1,67 @@
+{
+  "id": {
+    "helper": "",
+    "placeholder": "",
+    "form": "hidden"
+  },
+  "name": {
+    "helper": "",
+    "placeholder": "Enter the full name of the data source",
+    "form": "input"
+  },
+  "link": {
+    "helper": "",
+    "placeholder": "Enter the link to the data sources homepage",
+    "form": "url"
+  },
+  "image_url": {
+    "helper": "",
+    "placeholder": "Enter the link to the data sources logo",
+    "form": "url"
+  },
+  "description": {
+    "helper": "",
+    "placeholder": "Describe the data source",
+    "form": "textarea"
+  },
+  "category": {
+    "helper": "",
+    "placeholder": "",
+    "form": "select"
+  },
+  "entity": {
+    "helper": "An entity can be described by a data source",
+    "placeholder": "",
+    "form": "select"
+  },
+  "licence": {
+    "helper": "",
+    "placeholder": "Enter the licence of the data",
+    "form": "input"
+  },
+  "interface": {
+    "helper": "",
+    "placeholder": "Enter the link to the interface",
+    "form": "url"
+  },
+  "interface_type": {
+    "helper": "",
+    "placeholder": "Enter the type of the interface - Typical interface types are API, REST API, SPARQL Endpoint",
+    "form": "select"
+  },
+  "documentation": {
+    "helper": "",
+    "placeholder": "Enter the link to the documentation",
+    "form": "url"
+  },
+  "data_format": {
+    "helper": "",
+    "placeholder": "",
+    "form": "select"
+  },
+  "comment": {
+    "helper": "",
+    "placeholder": "Feel free to enter any type of comment",
+    "form": "textarea"
+  }
+}
