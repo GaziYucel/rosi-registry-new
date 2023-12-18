@@ -25,9 +25,9 @@
 <table id="registry">
     <thead>
     <tr>
-        <th class="">Name</th>
-        <th class="">Description</th>
-        <th class=""> &nbsp;</th>
+        <th class="row-col-1">Name</th>
+        <th class="row-col-2">Description</th>
+        <th class="row-col-3"> &nbsp;</th>
     </tr>
     </thead>
     <tbody>
@@ -35,8 +35,7 @@
         <tr class="row-parent row" :class="{'row-striped': index % 2 ===0, 'row-parent-selected': row.showChild }">
             <td class="pointer row-col-1" v-on:click="row.showChild = !row.showChild">{{ row.name }}</td>
             <td class="pointer row-col-2" v-on:click="row.showChild = !row.showChild">{{ row.description }}</td>
-            <td class="row-col-3"><a :href="row.link" target="_blank"><img src="assets/img/external-link.svg"
-                                                                           alt="Open link"/></a></td>
+            <td class="row-col-3"><a :href="row.link" target="_blank"><img src="assets/img/external-link.svg" alt="Open link"/></a></td>
         </tr>
         <tr v-if="row.showChild">
             <td colspan="5" class="row-child">
@@ -44,15 +43,14 @@
                     <tr>
                         <td class="row-col-1">Logo</td>
                         <td class="row-col-2">
-                            <img :src="row.image_url" v-if="row.image_url"/>
+                            <img :src="row.image_url" v-if="row.image_url" alt=""/>
                         </td>
                     </tr>
                     <template v-for="(value, key, index) in schema">
                         <tr v-if="options[key].form !== 'hidden'">
                             <td class="row-col-1">{{ value.title }}</td>
                             <td class="row-col-2">
-                                <a :href="row[key]" v-if="options[key].form === 'url'" target="_blank">{{ row[key]
-                                    }}</a>
+                                <a :href="row[key]" v-if="options[key].form === 'url'" target="_blank">{{ row[key] }}</a>
                                 <span v-else>{{ row[key] }}</span>
                             </td>
                         </tr>

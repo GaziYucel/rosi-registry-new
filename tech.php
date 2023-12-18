@@ -25,11 +25,11 @@
 <table id="registry">
     <thead>
     <tr>
-        <th>Name</th>
-        <th class="">Interface</th>
-        <th class="">Type</th>
-        <th class="">Documentation</th>
-        <th class="">Format</th>
+        <th class="row-col-1">Name</th>
+        <th class="row-col-2">Interface</th>
+        <th class="row-col-3">Type</th>
+        <th class="row-col-4">Documentation</th>
+        <th class="row-col-5">Format</th>
     </tr>
     </thead>
     <tbody>
@@ -48,15 +48,14 @@
                     <tr>
                         <td class="row-col-1">Logo</td>
                         <td class="row-col-2">
-                            <img :src="row.image_url" v-if="row.image_url"/>
+                            <img :src="row.image_url" v-if="row.image_url" alt="" />
                         </td>
                     </tr>
                     <template v-for="(value, key, index) in schema">
                         <tr v-if="options[key].form !== 'hidden'">
                             <td class="row-col-1">{{ value.title }}</td>
                             <td class="row-col-2">
-                                <a :href="row[key]" v-if="options[key].form === 'url'" target="_blank">{{ row[key]
-                                    }}</a>
+                                <a :href="row[key]" v-if="options[key].form === 'url'" target="_blank">{{ row[key] }}</a>
                                 <span v-else>{{ row[key] }}</span>
                             </td>
                         </tr>

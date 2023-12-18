@@ -215,4 +215,7 @@ header, footer { background-color: #4b4b4b; }
     #notification-container-close {
         right: 10px;
     }
+    .row-col-4, .row-col-5 {
+        display: none;
+    }
 }
